@@ -2,6 +2,7 @@
 
 namespace portfolio005.Models
 {
+    //this is the contact model file.
     public class Contact
     {
         [Key]
