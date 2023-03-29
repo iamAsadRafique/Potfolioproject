@@ -1,0 +1,78 @@
+﻿@using portfolio005.Models;
+@model Facts
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8 justify-content-center">
+            <br />
+            <form method="post" asp-action="Fact" asp-controller="Admin">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <h2>
+                            Enter Facts Detail
+                        </h2>
+
+                    </div>
+
+                </div>
+                <br />
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <label class="form-label" asp-for="HappyClients"></label>
+                        <input class="form-control" asp-for="HappyClients">
+                        <span asp-validation-for="HappyClients" class="text-danger"> </span>
+
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <label class="form-label" asp-for="HourOfSupport"></label>
+                        <input class="form-control" asp-for="HourOfSupport">
+                        <span asp-validation-for="HourOfSupport" class="text-danger"> </span>
+
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <label class="form-label" asp-for="Project"></label>
+                        <input class="form-control" asp-for="Project">
+                        <span asp-validation-for="Project" class="text-danger"> </span>
+
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <label class="form-label" asp-for="Awards"></label>
+                        <input class="form-control" asp-for="Awards">
+                        <span asp-validation-for="Awards" class="text-danger"> </span>
+
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <label class="form-label" asp-for="Description"></label>
+                        <input class="form-control" asp-for="Description">
+                        <span asp-validation-for="Description" class="text-danger"> </span>
+
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <br />
+                        <input type="submit" value="Add Fact" class="btn btn-primary" />
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>

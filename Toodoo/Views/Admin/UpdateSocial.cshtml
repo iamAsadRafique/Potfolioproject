@@ -1,0 +1,75 @@
+﻿@using portfolio005.Models;
+@model Social
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8 justify-content-center">
+            <br />
+            <form method="post" asp-action="UpdateSocial" asp-controller="Admin">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <h2>
+                            UpdTE Social Detail
+                        </h2>
+
+                    </div>
+
+                </div>
+                <br />
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <label class="form-label" asp-for="Twitter"></label>
+                        <input class="form-control" asp-for="Twitter">
+
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <label class="form-label" asp-for="FaceBook"></label>
+                        <input class="form-control" asp-for="FaceBook">
+
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <label class="form-label" asp-for="Intagram"></label>
+                        <input class="form-control" asp-for="Intagram">
+
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <label class="form-label" asp-for="Linkdin"></label>
+                        <input class="form-control" asp-for="Linkdin">
+
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <label class="form-label" asp-for="Skype"></label>
+                        <input class="form-control" asp-for="Skype">
+
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <br />
+                        <input type="submit" value="Update Social" class="btn btn-primary" />
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+
